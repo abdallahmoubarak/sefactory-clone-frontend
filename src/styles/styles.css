@@ -11,7 +11,8 @@ h1 {
   white-space: pre-wrap;
 }
 .headerContainer {
-  height: 100vh;
+  min-height: 100vh;
+  height: fit-content;
 }
 .timg {
   opacity: 0;
@@ -22,8 +23,8 @@ h1 {
   background-position-x: center;
   position: absolute;
   z-index: -2;
-  max-height: 100vh;
   min-height: 100vh;
+  min-height: inherit;
 }
 .img:before {
   content: "";
@@ -34,7 +35,7 @@ h1 {
   left: 0;
   background-image: linear-gradient(to bottom right, #000000, #000000);
   opacity: 0.6;
-  z-index: 0;
+  z-index: -1;
 }
 
 .logo {
@@ -100,7 +101,6 @@ button {
 }
 .headerContent {
   padding: 7vw;
-  padding-top: calc(85vmax / 5);
   color: white;
 }
 .hContanier {
