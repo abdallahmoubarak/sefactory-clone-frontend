@@ -180,6 +180,7 @@ p {
 }
 .green {
   color: #0d0;
+  cursor: pointer;
 }
 
 .partnerPargraph {
@@ -210,6 +211,7 @@ p {
   gap: 2rem;
   max-width: 50rem;
   margin: 0 auto;
+  cursor: pointer;
 }
 .programCard {
   flex: 1 1 12rem;
@@ -299,6 +301,7 @@ hr {
   -moz-border-radius: 0.6rem;
   -ms-border-radius: 0.6rem;
   -o-border-radius: 0.6rem;
+  cursor: pointer;
 }
 
 /* bottom section */
