@@ -169,6 +169,9 @@ p {
   display: flex;
   flex-wrap: wrap;
 }
+.partnerSection div {
+  flex: 1 1 22rem;
+}
 .partnerContent {
   padding: 2rem 0rem;
 }
@@ -180,11 +183,12 @@ p {
 }
 
 .partnerPargraph {
-  padding: 2rem 4rem;
+  padding: 2rem 5vw;
+  padding-left: 2vw;
   font-size: 1.4rem;
 }
 .pp {
-  padding: 0rem 5rem;
+  padding: 0rem 5vw;
   cursor: pointer;
 }
 
@@ -198,4 +202,29 @@ p {
 }
 .normal {
   font-weight: 300;
+}
+
+/* recruitment Section */
+.recruitmentSection {
+  padding: 3rem;
+}
+.recruitmentParagraph1 {
+  font-size: 1.8rem;
+  text-align: center;
+  padding-bottom: 1.6rem;
+  max-width: 28rem;
+  margin: 0 auto;
+}
+
+.recruitmentParagraph2 {
+  font-size: 1.4rem;
+  text-align: center;
+  padding-top: 1.6rem;
+  max-width: 35rem;
+  margin: 0 auto;
+}
+
+.qoute {
+  max-width: 28rem;
+  margin: 0 auto;
 }
