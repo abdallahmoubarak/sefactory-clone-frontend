@@ -4,8 +4,8 @@
   box-sizing: border-box;
   text-decoration: none;
   font-family: sans-serif;
-  font-weight: bold;
   z-index: 1;
+  line-height: 1.4em;
 }
 h1 {
   white-space: pre-wrap;
@@ -131,6 +131,9 @@ p {
   }
 }
 
+.pagebody {
+  padding: 0rem 6vw;
+}
 /* info styles */
 
 .infoSection {
@@ -142,11 +145,12 @@ p {
   justify-content: center;
   flex-wrap: wrap;
   gap: 2rem;
+  padding: 6vw 0rem;
 }
 .infoCard {
   display: flex;
   flex-direction: column;
-
+  flex: 1;
   gap: 1rem;
   width: 14rem;
 }
@@ -157,4 +161,41 @@ p {
 
 .infoCardText div {
   font-size: calc((1.6 - 1) * 1.2vw + 1rem);
+}
+
+/* partnerSection */
+.partnerSection {
+  padding: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.partnerContent {
+  padding: 2rem 0rem;
+}
+.partnerHeader {
+  font-size: 1.2em;
+}
+.green {
+  color: #0d0;
+}
+
+.partnerPargraph {
+  padding: 2rem 4rem;
+  font-size: 1.4rem;
+}
+.pp {
+  padding: 0rem 5rem;
+  cursor: pointer;
+}
+
+/* Programs Section */
+.programSection {
+  background-color: #0d0;
+  width: 100%;
+  text-align: center;
+  padding: 3rem;
+  color: white;
+}
+.normal {
+  font-weight: 300;
 }
