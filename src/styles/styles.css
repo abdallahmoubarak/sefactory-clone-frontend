@@ -203,6 +203,17 @@ p {
 .normal {
   font-weight: 300;
 }
+.programCards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  gap: 2rem;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+.programCard {
+  flex: 1 1 12rem;
+}
 
 /* recruitment Section */
 .recruitmentSection {
@@ -227,4 +238,78 @@ p {
 .qoute {
   max-width: 28rem;
   margin: 0 auto;
+}
+
+/*  */
+
+.imgSectiontop {
+  text-align: center;
+  background-color: #e6e6e6;
+  padding: 1rem;
+}
+.imgSectionbtm {
+  text-align: center;
+  padding: 1rem;
+}
+hr {
+  display: block;
+  position: relative;
+  height: 0px;
+  padding: 2rem;
+  margin: auto;
+  width: 80%;
+  max-height: 0;
+  font-size: 5px;
+  line-height: 0;
+  clear: both;
+  border: none;
+  border-top: 2px solid #000000;
+}
+
+.sp {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem 0rem;
+  align-items: center;
+  gap: 2rem;
+}
+.sp div {
+  flex: 1 1 25rem;
+}
+
+/* newsletter Section*/
+.newsletterSection {
+  background-color: #e6e6e6;
+  padding: 3rem;
+  text-align: center;
+  font-size: 1.8rem;
+}
+.newsletterTitle {
+  padding-bottom: 2rem;
+}
+.subbtn {
+  background-color: black;
+  color: white;
+  border: none;
+  text-align: center;
+  padding: 0.6rem 0rem;
+  font-size: 1.2rem;
+  border-radius: 0.6rem;
+  -webkit-border-radius: 0.6rem;
+  -moz-border-radius: 0.6rem;
+  -ms-border-radius: 0.6rem;
+  -o-border-radius: 0.6rem;
+}
+
+/* bottom section */
+
+.btmSection {
+  background-color: black;
+  padding: 2rem 3rem;
+  font-weight: bold;
+}
+.copyright {
+  color: white;
+  text-align: center;
+  padding: 2rem;
 }
