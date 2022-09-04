@@ -13,7 +13,6 @@ h1 {
 .headerContainer {
   min-height: 100vh;
   height: fit-content;
-  background: #666;
 }
 
 .img {
@@ -22,7 +21,8 @@ h1 {
   background-position-x: center;
   position: absolute;
   z-index: -2;
-  min-height: inherit;
+  width: 100%;
+  min-height: 100vh;
 }
 .img:before {
   content: "";
@@ -34,6 +34,13 @@ h1 {
   background-image: linear-gradient(to bottom right, #000000, #000000);
   opacity: 0.6;
   z-index: -1;
+}
+.gray {
+  position: absolute;
+  background-color: #666;
+  z-index: -5;
+  width: 100%;
+  min-height: 100vh;
 }
 
 .logo {
@@ -65,7 +72,7 @@ button {
   padding: 3px 20px;
   line-height: 2em;
   white-space: nowrap;
-  width:fit-content;
+  width: fit-content;
   cursor: pointer;
 }
 .menuItemsContainer {
