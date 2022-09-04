@@ -13,13 +13,11 @@ h1 {
 .headerContainer {
   min-height: 100vh;
   height: fit-content;
+  background: #666;
 }
-.timg {
-  width:100%;
-  min-height: 100vh;
-}
+
 .img {
-  background-image: url("./src/imgs/IMG_9780.jfif");
+  background-image: url("/src/imgs/IMG_9780.jfif");
   background-size: cover;
   background-position-x: center;
   position: absolute;
