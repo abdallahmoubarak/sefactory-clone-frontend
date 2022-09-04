@@ -295,6 +295,7 @@ hr {
   text-align: center;
   font-size: 1.2rem;
   border-radius: 0.6rem;
+  width: fit-content;
   -webkit-border-radius: 0.6rem;
   -moz-border-radius: 0.6rem;
   -ms-border-radius: 0.6rem;
