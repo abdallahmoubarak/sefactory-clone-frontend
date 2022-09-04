@@ -18,7 +18,7 @@ h1 {
   opacity: 0;
 }
 .img {
-  background-image: url("/src/imgs/IMG_9780.jfif");
+  background-image: url("./src/imgs/IMG_9780.jfif");
   background-size: cover;
   background-position-x: center;
   position: absolute;
