@@ -15,7 +15,8 @@ h1 {
   height: fit-content;
 }
 .timg {
-  opacity: 0;
+  width:100%;
+  min-height: 100vh;
 }
 .img {
   background-image: url("./src/imgs/IMG_9780.jfif");
@@ -23,7 +24,6 @@ h1 {
   background-position-x: center;
   position: absolute;
   z-index: -2;
-  min-height: 100vh;
   min-height: inherit;
 }
 .img:before {
